@@ -27,6 +27,7 @@ WHERE LOGIN_LOG.DATE >= '2019-10-1' AND LOGIN_LOG.DATE <= '2019-10-15';
 SELECT DATE_FORMAT(LOGIN_LOG.DATE, "%Y-%m-%d") AS DATE,
 COUNT(LOGIN_LOG.USER_ID) AS USER_NUM
 FROM LOGIN_LOG GROUP BY DATE; 
+<<<<<<< HEAD
 
 -- querry num of enters for the last 10 days
 SELECT USERS.ID, USERS.NAME, LOGIN_LOG.DATE
@@ -35,3 +36,5 @@ ON USERS.ID = LOGIN_LOG.USER_ID
 WHERE LOGIN_LOG.DATE > (CURDATE() - INTERVAL 10 DAY);
 
 
+=======
+>>>>>>> d1f926a... adding sql-scripts to create-fill-querry mysql-db
