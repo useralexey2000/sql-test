@@ -28,6 +28,9 @@ SELECT DATE_FORMAT(LOGIN_LOG.DATE, "%Y-%m-%d") AS DATE,
 COUNT(LOGIN_LOG.USER_ID) AS USER_NUM
 FROM LOGIN_LOG GROUP BY DATE; 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ba08e7... Adding querry - get users for the last 10 days
 
 -- querry num of enters for the last 10 days
 SELECT USERS.ID, USERS.NAME, LOGIN_LOG.DATE
@@ -36,5 +39,8 @@ ON USERS.ID = LOGIN_LOG.USER_ID
 WHERE LOGIN_LOG.DATE > (CURDATE() - INTERVAL 10 DAY);
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> d1f926a... adding sql-scripts to create-fill-querry mysql-db
+=======
+>>>>>>> 7ba08e7... Adding querry - get users for the last 10 days

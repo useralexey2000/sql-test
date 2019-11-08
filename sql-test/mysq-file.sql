@@ -98,6 +98,9 @@ INSERT INTO `LOGIN_LOG` (`ID`, `DATE`, `USER_ID`) VALUES
 (NULL, '2019-10-04 14:25:23', '4'), 
 (NULL, '2019-10-04 14:25:23', '5'), 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ba08e7... Adding querry - get users for the last 10 days
 (NULL, '2019-10-27 14:25:23', '6'), 
 (NULL, '2019-10-28 14:25:23', '7'), 
 (NULL, '2019-10-30 14:25:23', '1'), 
@@ -110,6 +113,7 @@ INSERT INTO `LOGIN_LOG` (`ID`, `DATE`, `USER_ID`) VALUES
 (NULL, '2019-11-07 14:25:23', '2'), 
 (NULL, '2019-11-07 14:25:23', '1'), 
 (NULL, '2019-11-08 14:25:23', '9'); 
+<<<<<<< HEAD
 =======
 (NULL, '2019-10-05 14:25:23', '6'), 
 (NULL, '2019-10-08 14:25:23', '7'), 
@@ -124,5 +128,7 @@ INSERT INTO `LOGIN_LOG` (`ID`, `DATE`, `USER_ID`) VALUES
 (NULL, '2019-10-18 14:25:23', '1'), 
 (NULL, '2019-10-19 14:25:23', '9'); 
 >>>>>>> d1f926a... adding sql-scripts to create-fill-querry mysql-db
+=======
+>>>>>>> 7ba08e7... Adding querry - get users for the last 10 days
 
 
